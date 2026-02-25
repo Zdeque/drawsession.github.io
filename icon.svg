@@ -1,0 +1,42 @@
+<!--- Salve como drawsession-icon.svg --->
+<svg width="1024" height="1024" viewBox="0 0 1024 1024" xmlns="http://www.w3.org/2000/svg">
+  <!-- Fundo gradiente iOS style -->
+  <defs>
+    <radialGradient id="bg" cx="50%" cy="50%">
+      <stop offset="0%" stop-color="#1a1e2e"/>
+      <stop offset="100%" stop-color="#0f1419"/>
+    </radialGradient>
+    <linearGradient id="glow" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#00d4ff" stop-opacity="0.8"/>
+      <stop offset="100%" stop-color="#0099cc" stop-opacity="0.3"/>
+    </linearGradient>
+  </defs>
+  
+  <!-- Fundo -->
+  <rect width="1024" height="1024" rx="120" fill="url(#bg)"/>
+  
+  <!-- Lápis estilizado -->
+  <path d="M 200 500 L 250 450 L 800 150 L 850 200 Z" fill="#2d3748" stroke="#4a5568" stroke-width="8"/>
+  
+  <!-- Ponta do lápis -->
+  <polygon points="820,170 850,200 830,180" fill="#718096"/>
+  
+  <!-- Linha sendo desenhada (curva → timer) -->
+  <path d="M 300 450 Q 450 350 600 450 Q 750 550 850 450" 
+        stroke="url(#glow)" stroke-width="45" stroke-linecap="round" 
+        fill="none" stroke-linejoin="round"/>
+  
+  <!-- Timer digital -->
+  <circle cx="850" cy="450" r="70" fill="#00d4ff" opacity="0.15"/>
+  <rect x="810" y="420" width="40" height="20" rx="4" fill="#00d4ff" opacity="0.6"/>
+  <text x="830" y="435" text-anchor="middle" fill="#00d4ff" font-size="24" 
+        font-family="SF Pro Display, -apple-system, sans-serif" font-weight="600">12</text>
+  
+  <!-- Sombra/glow -->
+  <path d="M 300 450 Q 450 350 600 450" stroke="#00d4ff" stroke-width="60" 
+        stroke-opacity="0.2" stroke-linecap="round"/>
+  
+  <!-- Logo texto "DS" -->
+  <text x="512" y="900" text-anchor="middle" fill="#00d4ff" font-size="80" 
+        font-family="SF Pro Display, -apple-system, sans-serif" font-weight="700" letter-spacing="4">DS</text>
+</svg>
