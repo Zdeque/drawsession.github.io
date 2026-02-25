@@ -1,0 +1,83 @@
+Privacy Policy — DrawSession
+
+Last updated: February 25, 2026
+
+Hosted on GitHub Pages: https://seuusuario.github.io/drawsession/
+
+Your privacy is important to us. This Privacy Policy explains how DrawSession (“we”, “our”, or “us”) collects, uses, and protects personal information when you use our web application hosted on GitHub Pages.
+
+1. Information We Collect
+DrawSession only collects the data necessary to provide the service, including:
+
+Pinterest authentication data:
+When you connect your Pinterest account, we receive an access token and specific permissions granted by Pinterest’s official API. This token is used only to:
+
+Access your boards and pins;
+
+Display selected images within the app.
+​
+
+Session configuration data:
+Such as total duration, time intervals, and display preferences (same or different images).
+This information is stored locally in your browser (Local Storage or IndexedDB) and never enviada para servidores. No data is persisted on our GitHub repository or any external server.
+
+We do not collect:
+
+Your Pinterest password or direct login credentials;
+
+Personal data such as full name, email, or location.
+​
+
+2. How We Use Your Information
+Your data is used exclusively to:
+
+Authenticate via Pinterest OAuth;
+
+Access and display your images based on your selected boards;
+
+Manage timing and sequence for your drawing sessions.
+
+All processing happens client-side in your browser. No data is transmitted to our servers or third parties beyond the Pinterest API.
+
+3. Data Storage and Security
+No backend servers: All data is stored locally in your browser (Local Storage).
+
+GitHub Pages: This is a static hosting service. GitHub does not access your local data.
+​
+
+All transmissions to Pinterest occur over HTTPS. You may revoke access anytime via Pinterest settings.
+
+4. Third-Party Services
+DrawSession integrates only with Pinterest API for image retrieval.
+We comply with the Pinterest Terms of Service and Pinterest Privacy Policy.
+​
+
+GitHub Pages hosts our static files but has no access to your Pinterest data or local storage.
+​
+
+No tracking, analytics, or cookies de terceiros.
+
+5. Data Retention and Deletion
+Access tokens are temporary and removed when you log out or clear browser data.
+
+Session data is deleted automatically when you close the tab or clear Local Storage.
+
+To fully delete data: Clear your browser's Local Storage for this site.
+
+6. Your Rights
+You have the right to:
+
+Disconnect the Pinterest integration at any time;
+
+Clear all local data via browser settings;
+
+Revoke app access in your Pinterest account.
+
+7. Policy Updates
+We may update this policy. Changes will be published on this page. Check periodically.
+
+8. Contact
+Questions? Contact the developer:
+privacy@drawsession.app (ou seu e-mail pessoal)
+GitHub Repository: https://github.com/seuusuario/drawsession
+
